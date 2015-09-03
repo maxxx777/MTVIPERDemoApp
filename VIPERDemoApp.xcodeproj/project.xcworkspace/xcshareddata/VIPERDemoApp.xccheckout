@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>18237840-5BBD-402F-8E66-AD992B2EFD79</string>
+	<key>IDESourceControlProjectName</key>
+	<string>VIPERDemoApp</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>7B3173A9A8711E26B2B7E8EB32A82862FE9BF726</key>
+		<string>https://bitbucket.org/alexthec0d3r/scheduleapp-iphone-cloned.git</string>
+		<key>DE9F33B77530C6FB52013FB58C7C7CEA46497AE6</key>
+		<string>https://github.com/maxxx777/MTVIPERDemoApp</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>VIPERDemoApp.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>7B3173A9A8711E26B2B7E8EB32A82862FE9BF726</key>
+		<string>../../../..</string>
+		<key>DE9F33B77530C6FB52013FB58C7C7CEA46497AE6</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/maxxx777/MTVIPERDemoApp</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>DE9F33B77530C6FB52013FB58C7C7CEA46497AE6</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>7B3173A9A8711E26B2B7E8EB32A82862FE9BF726</string>
+			<key>IDESourceControlWCCName</key>
+			<string>..</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>DE9F33B77530C6FB52013FB58C7C7CEA46497AE6</string>
+			<key>IDESourceControlWCCName</key>
+			<string>MTVIPERDemoApp</string>
+		</dict>
+	</array>
+</dict>
+</plist>
