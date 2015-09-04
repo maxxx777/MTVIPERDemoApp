@@ -7,6 +7,8 @@
 //
 
 #import "MTAppDelegate.h"
+#import "MTAppModulesConnector.h"
+#import "NSString+MTFormatting.h"
 
 @interface MTAppDelegate ()
 
@@ -14,11 +16,16 @@
 
 @implementation MTAppDelegate
 
-
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
     UIWindow* window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
 
+    appModulesConnector = [[MTAppModulesConnector alloc] initWithWindow:window];
+    
+    [appModulesConnector configureDependencies];
+    
+    [appModulesConnector showMainScreen];
+    
     [window makeKeyAndVisible];
     
     return YES;

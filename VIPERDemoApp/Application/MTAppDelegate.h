@@ -6,10 +6,14 @@
 //  Copyright (c) 2015 MAXIM TSVETKOV. All rights reserved.
 //
 
+@class MTAppModulesConnector;
+
 @interface MTAppDelegate : UIResponder
 <
     UIApplicationDelegate
 >
+{
+    MTAppModulesConnector *appModulesConnector;
+}
 
 @end
-

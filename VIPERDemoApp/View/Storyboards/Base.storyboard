@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <scenes>
+        <!--ItemListViewController-->
+        <scene sceneID="4rZ-QO-W1k">
+            <objects>
+                <viewController storyboardIdentifier="ItemListViewController" id="TEL-0Y-uNO" userLabel="ItemListViewController" customClass="MTItemListViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jBr-VE-PFy"/>
+                        <viewControllerLayoutGuide type="bottom" id="Ech-Rm-Weg"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Pqs-0Z-McL">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rh0-7z-5D1">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="rh0-7z-5D1" secondAttribute="bottom" id="KgS-qd-JHy"/>
+                            <constraint firstAttribute="trailing" secondItem="rh0-7z-5D1" secondAttribute="trailing" id="PLd-JO-5OR"/>
+                            <constraint firstItem="rh0-7z-5D1" firstAttribute="leading" secondItem="Pqs-0Z-McL" secondAttribute="leading" id="ReH-4S-A96"/>
+                            <constraint firstItem="rh0-7z-5D1" firstAttribute="top" secondItem="Pqs-0Z-McL" secondAttribute="top" id="jpH-TZ-kg7"/>
+                        </constraints>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                    <navigationItem key="navigationItem" title="Выбор города" id="XFY-aH-bof" userLabel="title"/>
+                    <connections>
+                        <outlet property="containerView" destination="rh0-7z-5D1" id="WcO-I7-by8"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hYl-k8-J7Y" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2320" y="-1407"/>
+        </scene>
+        <!--ItemListViewControllerWithSearch-->
+        <scene sceneID="Vd3-qH-gFZ">
+            <objects>
+                <viewController storyboardIdentifier="ItemListViewControllerWithSearch" id="e7D-Vk-ARd" userLabel="ItemListViewControllerWithSearch" customClass="MTItemListViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="4Sw-oS-dBM"/>
+                        <viewControllerLayoutGuide type="bottom" id="8ba-n7-2Fj"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="xcG-HD-GtA">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="Gok-te-Wdp">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="8K8-Yl-yy5"/>
+                                </constraints>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="e7D-Vk-ARd" id="cNq-WK-9nR"/>
+                                </connections>
+                            </searchBar>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dTm-1D-Jom">
+                                <rect key="frame" x="0.0" y="44" width="600" height="556"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="Gok-te-Wdp" firstAttribute="leading" secondItem="xcG-HD-GtA" secondAttribute="leading" id="Em1-aE-6QQ"/>
+                            <constraint firstItem="dTm-1D-Jom" firstAttribute="top" secondItem="Gok-te-Wdp" secondAttribute="bottom" id="MDT-Q3-f9l"/>
+                            <constraint firstAttribute="trailing" secondItem="dTm-1D-Jom" secondAttribute="trailing" id="MoW-jV-fOw"/>
+                            <constraint firstItem="Gok-te-Wdp" firstAttribute="top" secondItem="xcG-HD-GtA" secondAttribute="top" id="aU3-4m-F6Y"/>
+                            <constraint firstItem="dTm-1D-Jom" firstAttribute="leading" secondItem="xcG-HD-GtA" secondAttribute="leading" id="daq-eM-6wD"/>
+                            <constraint firstAttribute="bottom" secondItem="dTm-1D-Jom" secondAttribute="bottom" id="lQU-22-fmJ"/>
+                            <constraint firstAttribute="trailing" secondItem="Gok-te-Wdp" secondAttribute="trailing" id="yYw-dI-W55"/>
+                        </constraints>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                    <navigationItem key="navigationItem" id="2mi-qw-TlF" userLabel="title"/>
+                    <connections>
+                        <outlet property="containerView" destination="dTm-1D-Jom" id="UCF-dQ-5Zr"/>
+                        <outlet property="searchBar" destination="Gok-te-Wdp" id="ed7-dk-tQR"/>
+                        <outlet property="searchDisplayController" destination="n2f-VT-D7E" id="ZN8-gd-uV0"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yqK-Fl-MrB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <searchDisplayController id="n2f-VT-D7E">
+                    <connections>
+                        <outlet property="searchBar" destination="Gok-te-Wdp" id="3GR-On-uk8"/>
+                        <outlet property="searchContentsController" destination="e7D-Vk-ARd" id="CcT-pA-wFR"/>
+                    </connections>
+                </searchDisplayController>
+            </objects>
+            <point key="canvasLocation" x="3022" y="-71"/>
+        </scene>
+        <!--Item List Table View Controller-->
+        <scene sceneID="nQy-JW-Tii">
+            <objects>
+                <tableViewController storyboardIdentifier="ItemListTableViewController" id="NJo-L7-08D" customClass="MTItemListTableViewController" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="default" allowsSelectionDuringEditing="YES" allowsMultipleSelectionDuringEditing="YES" rowHeight="44" sectionHeaderHeight="10" sectionFooterHeight="10" id="RV2-7k-qg8">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.1647058824" green="0.1960784314" blue="0.24313725489999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <view key="tableFooterView" contentMode="scaleToFill" id="91c-X9-QQO" customClass="MTTableFooterView">
+                            <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </view>
+                        <connections>
+                            <outlet property="dataSource" destination="NJo-L7-08D" id="2Ja-E1-6bU"/>
+                            <outlet property="delegate" destination="NJo-L7-08D" id="TET-Ss-Igz"/>
+                        </connections>
+                    </tableView>
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                    <connections>
+                        <outlet property="tableFooterView" destination="91c-X9-QQO" id="odO-JX-nH3"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dmn-FM-vzl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1034" y="-1319"/>
+        </scene>
+        <!--Item List Search View Controller-->
+        <scene sceneID="LcC-Jz-Sj6">
+            <objects>
+                <tableViewController storyboardIdentifier="ItemListSearchViewController" id="vvH-td-u4E" customClass="MTItemListSearchViewController" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="10" sectionFooterHeight="10" id="8Js-tw-PRk">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <connections>
+                            <outlet property="dataSource" destination="vvH-td-u4E" id="ZRi-jB-HIP"/>
+                            <outlet property="delegate" destination="vvH-td-u4E" id="oAw-ul-U13"/>
+                        </connections>
+                    </tableView>
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="O80-Z3-6C3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="704" y="-1331"/>
+        </scene>
+    </scenes>
+</document>

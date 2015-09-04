@@ -1,0 +1,12 @@
+[submodule "VIPERDemoApp/Utilities/External/UIColor-colorWithHex"]
+	path = VIPERDemoApp/Utilities/External/UIColor-colorWithHex
+	url = https://github.com/maxxx777/UIColor-colorWithHex
+[submodule "VIPERDemoApp/Utilities/External/MTDataStore"]
+	path = VIPERDemoApp/Utilities/External/MTDataStore
+	url = https://github.com/maxxx777/MTDataStore
+[submodule "VIPERDemoApp/Utilities/External/MTItemListCache"]
+	path = VIPERDemoApp/Utilities/External/MTItemListCache
+	url = https://github.com/maxxx777/MTItemListCache
+[submodule "VIPERDemoApp/Utilities/External/NSString-MTFormatting"]
+	path = VIPERDemoApp/Utilities/External/NSString-MTFormatting
+	url = https://github.com/maxxx777/NSString-MTFormatting

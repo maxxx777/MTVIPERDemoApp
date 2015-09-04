@@ -1,0 +1,51 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "DE9F33B77530C6FB52013FB58C7C7CEA46497AE6",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "7B3173A9A8711E26B2B7E8EB32A82862FE9BF726" : 0,
+    "DE9F33B77530C6FB52013FB58C7C7CEA46497AE6" : 0,
+    "1B7035196835CBB1087118B28748EF9BD026EDEA" : 0,
+    "2D5F753908F82B92CBFDAB48E809B188427269EC" : 0,
+    "3DD5A521D016A0D0968AE6925DAA149E588DFB78" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "18237840-5BBD-402F-8E66-AD992B2EFD79",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "7B3173A9A8711E26B2B7E8EB32A82862FE9BF726" : "",
+    "DE9F33B77530C6FB52013FB58C7C7CEA46497AE6" : "MTVIPERDemoApp",
+    "1B7035196835CBB1087118B28748EF9BD026EDEA" : "MTVIPERDemoAppVIPERDemoApp\/Utilities\/External\/MTDataStore",
+    "2D5F753908F82B92CBFDAB48E809B188427269EC" : "MTVIPERDemoAppVIPERDemoApp\/Utilities\/External\/MTItemListCache",
+    "3DD5A521D016A0D0968AE6925DAA149E588DFB78" : "MTVIPERDemoAppVIPERDemoApp\/Utilities\/External\/UIColor-colorWithHex"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "VIPERDemoApp",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 203,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "VIPERDemoApp.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/maxxx777\/MTDataStore",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "1B7035196835CBB1087118B28748EF9BD026EDEA"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/maxxx777\/MTItemListCache",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "2D5F753908F82B92CBFDAB48E809B188427269EC"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/maxxx777\/UIColor-colorWithHex",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3DD5A521D016A0D0968AE6925DAA149E588DFB78"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/alexthec0d3r\/scheduleapp-iphone-cloned.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "7B3173A9A8711E26B2B7E8EB32A82862FE9BF726"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/maxxx777\/MTVIPERDemoApp",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "DE9F33B77530C6FB52013FB58C7C7CEA46497AE6"
+    }
+  ]
+}
