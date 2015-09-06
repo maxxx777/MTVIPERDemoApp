@@ -43,6 +43,8 @@
 }
 
 - (instancetype)initWithRootDataManager:(id<MTRootDataManagerInterface>)rootDataManager
+                      mainItemListCache:(id<MTItemListCacheInterface>)mainItemListCache
+                     searchResultsCache:(id<MTArrayBasedItemListCacheInterface>)searchResultsCache
 {
     return [self initWithCountry:nil
                mainItemListCache:nil

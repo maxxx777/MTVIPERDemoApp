@@ -9,21 +9,17 @@
 /* Begin PBXBuildFile section */
 		754BF81D1B9C46F900A060F4 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 754BF8171B9C46F900A060F4 /* JSONKit.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		754BF81E1B9C46F900A060F4 /* MTNetworkWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 754BF8191B9C46F900A060F4 /* MTNetworkWrapper.m */; };
-		754BF81F1B9C46F900A060F4 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 754BF81C1B9C46F900A060F4 /* README.md */; };
 		754BF8261B9C4ADB00A060F4 /* MTURLRequestBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 754BF8221B9C4ADB00A060F4 /* MTURLRequestBuilder.m */; };
-		754BF8271B9C4ADB00A060F4 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 754BF8251B9C4ADB00A060F4 /* README.md */; };
 		759974661B998308007B017A /* MTDataMapping.m in Sources */ = {isa = PBXBuildFile; fileRef = 759974651B998308007B017A /* MTDataMapping.m */; };
 		759974691B998352007B017A /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 759974671B998352007B017A /* Model.xcdatamodeld */; };
 		759974701B99835E007B017A /* MTManagedCity.m in Sources */ = {isa = PBXBuildFile; fileRef = 7599746B1B99835E007B017A /* MTManagedCity.m */; };
 		759974711B99835E007B017A /* MTManagedCountry.m in Sources */ = {isa = PBXBuildFile; fileRef = 7599746D1B99835E007B017A /* MTManagedCountry.m */; };
 		759974721B99835E007B017A /* MTManagedItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 7599746F1B99835E007B017A /* MTManagedItem.m */; };
 		759974771B9984A9007B017A /* NSString+MTFormatting.m in Sources */ = {isa = PBXBuildFile; fileRef = 759974751B9984A9007B017A /* NSString+MTFormatting.m */; };
-		759974781B9984A9007B017A /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 759974761B9984A9007B017A /* README.md */; };
 		7599747B1B99852D007B017A /* Base.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7599747A1B99852D007B017A /* Base.storyboard */; };
 		75E090361B98989F008649E2 /* VIPERDemoAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 75E090351B98989F008649E2 /* VIPERDemoAppTests.m */; };
 		75E090561B9899F3008649E2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75E090401B9899F3008649E2 /* Images.xcassets */; };
 		75E090571B9899F3008649E2 /* MTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 75E090421B9899F3008649E2 /* MTAppDelegate.m */; };
-		75E090581B9899F3008649E2 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 75E090441B9899F3008649E2 /* Info.plist */; };
 		75E090591B9899F3008649E2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 75E090451B9899F3008649E2 /* main.m */; };
 		75E090611B989B90008649E2 /* MTAppModulesConnector.m in Sources */ = {isa = PBXBuildFile; fileRef = 75E0905B1B989B90008649E2 /* MTAppModulesConnector.m */; };
 		75E090621B989B90008649E2 /* NSString+MTSpecificStrings.m in Sources */ = {isa = PBXBuildFile; fileRef = 75E0905E1B989B90008649E2 /* NSString+MTSpecificStrings.m */; };
@@ -63,10 +59,8 @@
 		75E091041B98B409008649E2 /* MTTableViewSectionFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 75E091001B98B409008649E2 /* MTTableViewSectionFooter.m */; };
 		75E091051B98B409008649E2 /* MTTableViewSectionHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 75E091021B98B409008649E2 /* MTTableViewSectionHeader.m */; };
 		75E091211B98B507008649E2 /* MTDataStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 75E091191B98B507008649E2 /* MTDataStore.m */; };
-		75E091221B98B507008649E2 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 75E0911B1B98B507008649E2 /* README.md */; };
 		75E091311B98B564008649E2 /* MTArrayBasedItemListCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 75E091281B98B564008649E2 /* MTArrayBasedItemListCache.m */; };
 		75E091321B98B564008649E2 /* MTFetchedResultsControllerBasedItemListCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 75E0912B1B98B564008649E2 /* MTFetchedResultsControllerBasedItemListCache.m */; };
-		75E091331B98B564008649E2 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 75E091301B98B564008649E2 /* README.md */; };
 		75E0913A1B98B5A4008649E2 /* MTCityDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 75E091351B98B5A4008649E2 /* MTCityDataManager.m */; };
 		75E0913B1B98B5A4008649E2 /* MTCountryDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 75E091381B98B5A4008649E2 /* MTCountryDataManager.m */; };
 		75E091491B98B5E2008649E2 /* MTMergeCitiesOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 75E0913D1B98B5E2008649E2 /* MTMergeCitiesOperation.m */; };
@@ -1022,7 +1016,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				75E090581B9899F3008649E2 /* Info.plist in Resources */,
 				7599747B1B99852D007B017A /* Base.storyboard in Resources */,
 				75E090561B9899F3008649E2 /* Images.xcassets in Resources */,
 			);
@@ -1048,7 +1041,6 @@
 				75E091611B98B6CF008649E2 /* MTWebServiceParser.m in Sources */,
 				75E0914B1B98B5E2008649E2 /* MTMergeItemsOperation.m in Sources */,
 				75E091211B98B507008649E2 /* MTDataStore.m in Sources */,
-				759974781B9984A9007B017A /* README.md in Sources */,
 				75E0908D1B98AF99008649E2 /* MTCityListSearchPresenter.m in Sources */,
 				75E091311B98B564008649E2 /* MTArrayBasedItemListCache.m in Sources */,
 				75E090FA1B98B322008649E2 /* MTItemListRequester.m in Sources */,
@@ -1061,7 +1053,6 @@
 				75E090DD1B98B027008649E2 /* MTItemListSearchViewController.m in Sources */,
 				75E090FB1B98B322008649E2 /* MTItemListSearcher.m in Sources */,
 				75E091601B98B6CF008649E2 /* MTCountryWebService.m in Sources */,
-				75E091331B98B564008649E2 /* README.md in Sources */,
 				75E091321B98B564008649E2 /* MTFetchedResultsControllerBasedItemListCache.m in Sources */,
 				754BF81E1B9C46F900A060F4 /* MTNetworkWrapper.m in Sources */,
 				75E0915F1B98B6CF008649E2 /* MTCityWebService.m in Sources */,
@@ -1088,15 +1079,12 @@
 				75E090E11B98B027008649E2 /* MTRootPresenter.m in Sources */,
 				75E090D41B98B027008649E2 /* MTItemListCell.m in Sources */,
 				75E090E41B98B027008649E2 /* MTRootViewController.m in Sources */,
-				75E091221B98B507008649E2 /* README.md in Sources */,
 				75E0913A1B98B5A4008649E2 /* MTCityDataManager.m in Sources */,
 				75E091491B98B5E2008649E2 /* MTMergeCitiesOperation.m in Sources */,
 				759974691B998352007B017A /* Model.xcdatamodeld in Sources */,
 				75E090571B9899F3008649E2 /* MTAppDelegate.m in Sources */,
 				75E090DE1B98B027008649E2 /* MTItemListTableViewController.m in Sources */,
-				754BF81F1B9C46F900A060F4 /* README.md in Sources */,
 				75E090E21B98B027008649E2 /* MTRootTablePresenter.m in Sources */,
-				754BF8271B9C4ADB00A060F4 /* README.md in Sources */,
 				75E0908E1B98AF99008649E2 /* MTCityListTablePresenter.m in Sources */,
 				75E0913B1B98B5A4008649E2 /* MTCountryDataManager.m in Sources */,
 				75E090F81B98B322008649E2 /* MTCityListRequester.m in Sources */,
@@ -1221,6 +1209,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/VIPERDemoApp/Application/SupportingFiles/Prefix.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/VIPERDemoApp/Application/SupportingFiles/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
@@ -1233,6 +1222,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/VIPERDemoApp/Application/SupportingFiles/Prefix.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/VIPERDemoApp/Application/SupportingFiles/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;

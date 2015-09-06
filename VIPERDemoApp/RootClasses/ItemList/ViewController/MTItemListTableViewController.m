@@ -189,7 +189,7 @@ static NSInteger loadMoreCount = 10;
 
 - (void)configurePullToRefresh
 {
-    __weak MTItemListTableViewController *weakSelf = self;
+//    __weak MTItemListTableViewController *weakSelf = self;
     
     // Setup Pull to refresh
 //    [self.tableView addPullToRefreshWithActionHandler:^{
