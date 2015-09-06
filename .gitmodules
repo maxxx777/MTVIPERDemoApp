@@ -7,3 +7,6 @@
 [submodule "VIPERDemoApp/Utilities/External/NSString-MTFormatting"]
 	path = VIPERDemoApp/Utilities/External/NSString-MTFormatting
 	url = https://github.com/maxxx777/NSString-MTFormatting
+[submodule "VIPERDemoApp/Utilities/External/MTNetworkWrapper"]
+	path = VIPERDemoApp/Utilities/External/MTNetworkWrapper
+	url = https://github.com/maxxx777/MTNetworkWrapper

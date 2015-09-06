@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7565F3B71B98C23A00ACE5F1 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 7565F3B61B98C23A00ACE5F1 /* JSONKit.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		759974661B998308007B017A /* MTDataMapping.m in Sources */ = {isa = PBXBuildFile; fileRef = 759974651B998308007B017A /* MTDataMapping.m */; };
 		759974691B998352007B017A /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 759974671B998352007B017A /* Model.xcdatamodeld */; };
 		759974701B99835E007B017A /* MTManagedCity.m in Sources */ = {isa = PBXBuildFile; fileRef = 7599746B1B99835E007B017A /* MTManagedCity.m */; };
@@ -79,7 +78,6 @@
 		75E0916F1B98B813008649E2 /* MTMappedCity.m in Sources */ = {isa = PBXBuildFile; fileRef = 75E0916A1B98B813008649E2 /* MTMappedCity.m */; };
 		75E091701B98B813008649E2 /* MTMappedCountry.m in Sources */ = {isa = PBXBuildFile; fileRef = 75E0916C1B98B813008649E2 /* MTMappedCountry.m */; };
 		75E091711B98B813008649E2 /* MTMappedItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 75E0916E1B98B813008649E2 /* MTMappedItem.m */; };
-		75E091771B98B889008649E2 /* MTNetworkWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 75E091741B98B889008649E2 /* MTNetworkWrapper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -93,8 +91,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		7565F3B51B98C23A00ACE5F1 /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
-		7565F3B61B98C23A00ACE5F1 /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
 		759974641B998308007B017A /* MTDataMapping.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTDataMapping.h; sourceTree = "<group>"; };
 		759974651B998308007B017A /* MTDataMapping.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTDataMapping.m; sourceTree = "<group>"; };
 		759974681B998352007B017A /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
@@ -266,10 +262,6 @@
 		75E0916C1B98B813008649E2 /* MTMappedCountry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTMappedCountry.m; sourceTree = "<group>"; };
 		75E0916D1B98B813008649E2 /* MTMappedItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTMappedItem.h; sourceTree = "<group>"; };
 		75E0916E1B98B813008649E2 /* MTMappedItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTMappedItem.m; sourceTree = "<group>"; };
-		75E091731B98B889008649E2 /* MTNetworkWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTNetworkWrapper.h; sourceTree = "<group>"; };
-		75E091741B98B889008649E2 /* MTNetworkWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTNetworkWrapper.m; sourceTree = "<group>"; };
-		75E091751B98B889008649E2 /* MTNetworkWrapperConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTNetworkWrapperConstants.h; sourceTree = "<group>"; };
-		75E091761B98B889008649E2 /* MTNetworkWrapperInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTNetworkWrapperInterface.h; sourceTree = "<group>"; };
 		75E091781B98B907008649E2 /* MTRootServiceConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTRootServiceConstants.h; sourceTree = "<group>"; };
 		75E0917A1B98B977008649E2 /* MTErrorHandlingConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTErrorHandlingConstants.h; sourceTree = "<group>"; };
 		75E0917B1B98B977008649E2 /* MTErrorTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTErrorTypes.h; sourceTree = "<group>"; };
@@ -293,15 +285,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		7565F3B41B98C23A00ACE5F1 /* JSONKit */ = {
-			isa = PBXGroup;
-			children = (
-				7565F3B51B98C23A00ACE5F1 /* JSONKit.h */,
-				7565F3B61B98C23A00ACE5F1 /* JSONKit.m */,
-			);
-			path = JSONKit;
-			sourceTree = "<group>";
-		};
 		759974731B9984A9007B017A /* NSString-MTFormatting */ = {
 			isa = PBXGroup;
 			children = (
@@ -546,7 +529,6 @@
 				75E090FC1B98B409008649E2 /* CustomControls */,
 				75E091791B98B977008649E2 /* ErrorHandling */,
 				75E091161B98B507008649E2 /* External */,
-				75E091721B98B889008649E2 /* NetworkWrapper */,
 				75E091631B98B798008649E2 /* RequestBuilder */,
 				75E090641B98AE3D008649E2 /* MTSpecificColorsInterface.h */,
 				75E090651B98AE3D008649E2 /* MTSpecificStringsInterface.h */,
@@ -821,7 +803,6 @@
 		75E091161B98B507008649E2 /* External */ = {
 			isa = PBXGroup;
 			children = (
-				7565F3B41B98C23A00ACE5F1 /* JSONKit */,
 				75E091261B98B564008649E2 /* MTItemListCache */,
 				75E091171B98B507008649E2 /* MTDataStore */,
 				759974731B9984A9007B017A /* NSString-MTFormatting */,
@@ -906,17 +887,6 @@
 				75E091671B98B798008649E2 /* MTRequestBuilderInterface.h */,
 			);
 			path = RequestBuilder;
-			sourceTree = "<group>";
-		};
-		75E091721B98B889008649E2 /* NetworkWrapper */ = {
-			isa = PBXGroup;
-			children = (
-				75E091731B98B889008649E2 /* MTNetworkWrapper.h */,
-				75E091741B98B889008649E2 /* MTNetworkWrapper.m */,
-				75E091751B98B889008649E2 /* MTNetworkWrapperConstants.h */,
-				75E091761B98B889008649E2 /* MTNetworkWrapperInterface.h */,
-			);
-			path = NetworkWrapper;
 			sourceTree = "<group>";
 		};
 		75E091791B98B977008649E2 /* ErrorHandling */ = {
@@ -1058,14 +1028,12 @@
 				75E091321B98B564008649E2 /* MTFetchedResultsControllerBasedItemListCache.m in Sources */,
 				75E0915F1B98B6CF008649E2 /* MTCityWebService.m in Sources */,
 				75E090921B98AF99008649E2 /* MTCountryListSearchPresenter.m in Sources */,
-				7565F3B71B98C23A00ACE5F1 /* JSONKit.m in Sources */,
 				75E091701B98B813008649E2 /* MTMappedCountry.m in Sources */,
 				75E091621B98B6CF008649E2 /* MTWebServiceSerializer.m in Sources */,
 				75E090901B98AF99008649E2 /* MTCityListWireframe.m in Sources */,
 				75E090931B98AF99008649E2 /* MTCountryListTablePresenter.m in Sources */,
 				75E091041B98B409008649E2 /* MTTableViewSectionFooter.m in Sources */,
 				75E090951B98AF99008649E2 /* MTCountryListWireframe.m in Sources */,
-				75E091771B98B889008649E2 /* MTNetworkWrapper.m in Sources */,
 				75E0916F1B98B813008649E2 /* MTMappedCity.m in Sources */,
 				75E090611B989B90008649E2 /* MTAppModulesConnector.m in Sources */,
 				759974661B998308007B017A /* MTDataMapping.m in Sources */,
