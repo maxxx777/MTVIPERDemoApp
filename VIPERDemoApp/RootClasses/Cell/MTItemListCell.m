@@ -13,8 +13,6 @@
 - (void)layoutSubviews
 {
     [super layoutSubviews];
-    
-    [self.contentView layoutIfNeeded];
 }
 
 - (void)configureCellWithItem:(id)item

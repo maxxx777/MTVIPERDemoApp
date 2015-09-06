@@ -8,7 +8,6 @@
 
 #import "MTItemListTableViewController.h"
 //#import "SVPullToRefresh.h"
-#import "UIColor+MTSpecificColors.h"
 #import "MTTableViewSectionHeader.h"
 #import "MTTableFooterView.h"
 
@@ -64,17 +63,17 @@ static NSInteger loadMoreCount = 10;
 {
     [super viewWillAppear:animated];
     
-    [UIView transitionWithView: self.tableView
-                      duration: 0.0f
-                       options: UIViewAnimationOptionTransitionNone
-                    animations: ^(void)
-     {
+//    [UIView transitionWithView: self.tableView
+//                      duration: 0.0f
+//                       options: UIViewAnimationOptionTransitionNone
+//                    animations: ^(void)
+//     {
          [self.presenter updateViewBeforeAppearing];
-     }
-                    completion: ^(BOOL isFinished)
-     {
-         [self reloadData];
-     }];
+//     }
+//                    completion: ^(BOOL isFinished)
+//     {
+//         [self reloadData];
+//     }];
 }
 
 - (void)viewDidAppear:(BOOL)animated

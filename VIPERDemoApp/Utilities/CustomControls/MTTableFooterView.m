@@ -7,7 +7,6 @@
 //
 
 #import "MTTableFooterView.h"
-#import "UIColor+MTSpecificColors.h"
 
 @interface MTTableFooterView ()
 
@@ -25,9 +24,8 @@
         
         _labelTitle = [[UILabel alloc] init];
         self.labelTitle.font = [UIFont fontWithName:@"HelveticaNeue" size:16.0f];
-        self.labelTitle.textColor = [UIColor mt_tableViewTextColor];
+        self.labelTitle.textColor = [UIColor blackColor];
         self.labelTitle.textAlignment = NSTextAlignmentCenter;
-        self.labelTitle.backgroundColor = [UIColor mt_tableViewBackgroundColor];
         self.labelTitle.numberOfLines = 0;
         [self addSubview:self.labelTitle];
         

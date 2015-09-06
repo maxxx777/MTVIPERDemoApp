@@ -10,7 +10,6 @@
 #import "MTRootTablePresenterInterface.h"
 #import "MTTableViewSectionHeader.h"
 #import "MTTableViewSectionFooter.h"
-#import "UIColor+MTSpecificColors.h"
 
 static NSString *HeaderIdentifier = @"ItemListTableViewSectionHeader";
 static NSString *FooterIdentifier = @"ItemListTableViewSectionFooter";
@@ -30,14 +29,6 @@ static NSString *FooterIdentifier = @"ItemListTableViewSectionFooter";
 {
     [super viewDidLoad];
     
-    self.tableView.backgroundView.backgroundColor = [UIColor mt_tableViewBackgroundColor];
-    self.tableView.backgroundColor = [UIColor mt_tableViewBackgroundColor];
-    if ([self.tableView respondsToSelector:@selector(sectionIndexBackgroundColor)]) {
-        self.tableView.sectionIndexBackgroundColor = [UIColor clearColor];
-    } else {
-        self.tableView.sectionIndexTrackingBackgroundColor = [UIColor clearColor];
-    }
-    self.tableView.sectionIndexColor = [UIColor mt_tableViewSectionIndexColor];
     self.tableView.sectionFooterHeight = 0.0f;
     
     [self.tableView registerClass:[MTTableViewSectionHeader class]

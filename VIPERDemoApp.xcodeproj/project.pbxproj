@@ -23,7 +23,6 @@
 		75E090591B9899F3008649E2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 75E090451B9899F3008649E2 /* main.m */; };
 		75E090611B989B90008649E2 /* MTAppModulesConnector.m in Sources */ = {isa = PBXBuildFile; fileRef = 75E0905B1B989B90008649E2 /* MTAppModulesConnector.m */; };
 		75E090621B989B90008649E2 /* NSString+MTSpecificStrings.m in Sources */ = {isa = PBXBuildFile; fileRef = 75E0905E1B989B90008649E2 /* NSString+MTSpecificStrings.m */; };
-		75E090631B989B90008649E2 /* UIColor+MTSpecificColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 75E090601B989B90008649E2 /* UIColor+MTSpecificColors.m */; };
 		75E0908C1B98AF99008649E2 /* MTCityListPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 75E090711B98AF99008649E2 /* MTCityListPresenter.m */; };
 		75E0908D1B98AF99008649E2 /* MTCityListSearchPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 75E090731B98AF99008649E2 /* MTCityListSearchPresenter.m */; };
 		75E0908E1B98AF99008649E2 /* MTCityListTablePresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 75E090751B98AF99008649E2 /* MTCityListTablePresenter.m */; };
@@ -61,9 +60,6 @@
 		75E091051B98B409008649E2 /* MTTableViewSectionHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 75E091021B98B409008649E2 /* MTTableViewSectionHeader.m */; };
 		75E091211B98B507008649E2 /* MTDataStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 75E091191B98B507008649E2 /* MTDataStore.m */; };
 		75E091221B98B507008649E2 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 75E0911B1B98B507008649E2 /* README.md */; };
-		75E091231B98B507008649E2 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 75E0911D1B98B507008649E2 /* .gitignore */; };
-		75E091241B98B507008649E2 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 75E0911E1B98B507008649E2 /* README.md */; };
-		75E091251B98B507008649E2 /* UIColor+colorWithHex.m in Sources */ = {isa = PBXBuildFile; fileRef = 75E091201B98B507008649E2 /* UIColor+colorWithHex.m */; };
 		75E091311B98B564008649E2 /* MTArrayBasedItemListCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 75E091281B98B564008649E2 /* MTArrayBasedItemListCache.m */; };
 		75E091321B98B564008649E2 /* MTFetchedResultsControllerBasedItemListCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 75E0912B1B98B564008649E2 /* MTFetchedResultsControllerBasedItemListCache.m */; };
 		75E091331B98B564008649E2 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 75E091301B98B564008649E2 /* README.md */; };
@@ -127,8 +123,6 @@
 		75E0905C1B989B90008649E2 /* MTAppModulesConnectorInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTAppModulesConnectorInterface.h; sourceTree = "<group>"; };
 		75E0905D1B989B90008649E2 /* NSString+MTSpecificStrings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MTSpecificStrings.h"; sourceTree = "<group>"; };
 		75E0905E1B989B90008649E2 /* NSString+MTSpecificStrings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MTSpecificStrings.m"; sourceTree = "<group>"; };
-		75E0905F1B989B90008649E2 /* UIColor+MTSpecificColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+MTSpecificColors.h"; sourceTree = "<group>"; };
-		75E090601B989B90008649E2 /* UIColor+MTSpecificColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+MTSpecificColors.m"; sourceTree = "<group>"; };
 		75E090641B98AE3D008649E2 /* MTSpecificColorsInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTSpecificColorsInterface.h; sourceTree = "<group>"; };
 		75E090651B98AE3D008649E2 /* MTSpecificStringsInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTSpecificStringsInterface.h; sourceTree = "<group>"; };
 		75E090701B98AF99008649E2 /* MTCityListPresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTCityListPresenter.h; sourceTree = "<group>"; };
@@ -221,10 +215,6 @@
 		75E091191B98B507008649E2 /* MTDataStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTDataStore.m; sourceTree = "<group>"; };
 		75E0911A1B98B507008649E2 /* MTDataStoreConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTDataStoreConstants.h; sourceTree = "<group>"; };
 		75E0911B1B98B507008649E2 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		75E0911D1B98B507008649E2 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
-		75E0911E1B98B507008649E2 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		75E0911F1B98B507008649E2 /* UIColor+colorWithHex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+colorWithHex.h"; sourceTree = "<group>"; };
-		75E091201B98B507008649E2 /* UIColor+colorWithHex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+colorWithHex.m"; sourceTree = "<group>"; };
 		75E091271B98B564008649E2 /* MTArrayBasedItemListCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTArrayBasedItemListCache.h; sourceTree = "<group>"; };
 		75E091281B98B564008649E2 /* MTArrayBasedItemListCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTArrayBasedItemListCache.m; sourceTree = "<group>"; };
 		75E091291B98B564008649E2 /* MTArrayBasedItemListCacheInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTArrayBasedItemListCacheInterface.h; sourceTree = "<group>"; };
@@ -390,8 +380,6 @@
 				75E0905C1B989B90008649E2 /* MTAppModulesConnectorInterface.h */,
 				75E0905D1B989B90008649E2 /* NSString+MTSpecificStrings.h */,
 				75E0905E1B989B90008649E2 /* NSString+MTSpecificStrings.m */,
-				75E0905F1B989B90008649E2 /* UIColor+MTSpecificColors.h */,
-				75E090601B989B90008649E2 /* UIColor+MTSpecificColors.m */,
 				75E090401B9899F3008649E2 /* Images.xcassets */,
 				75E090431B9899F3008649E2 /* SupportingFiles */,
 			);
@@ -837,7 +825,6 @@
 				75E091261B98B564008649E2 /* MTItemListCache */,
 				75E091171B98B507008649E2 /* MTDataStore */,
 				759974731B9984A9007B017A /* NSString-MTFormatting */,
-				75E0911C1B98B507008649E2 /* UIColor-colorWithHex */,
 			);
 			path = External;
 			sourceTree = "<group>";
@@ -851,17 +838,6 @@
 				75E0911B1B98B507008649E2 /* README.md */,
 			);
 			path = MTDataStore;
-			sourceTree = "<group>";
-		};
-		75E0911C1B98B507008649E2 /* UIColor-colorWithHex */ = {
-			isa = PBXGroup;
-			children = (
-				75E0911D1B98B507008649E2 /* .gitignore */,
-				75E0911E1B98B507008649E2 /* README.md */,
-				75E0911F1B98B507008649E2 /* UIColor+colorWithHex.h */,
-				75E091201B98B507008649E2 /* UIColor+colorWithHex.m */,
-			);
-			path = "UIColor-colorWithHex";
 			sourceTree = "<group>";
 		};
 		75E091261B98B564008649E2 /* MTItemListCache */ = {
@@ -1042,7 +1018,6 @@
 			files = (
 				75E090581B9899F3008649E2 /* Info.plist in Resources */,
 				7599747B1B99852D007B017A /* Base.storyboard in Resources */,
-				75E091231B98B507008649E2 /* .gitignore in Resources */,
 				75E090561B9899F3008649E2 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1105,7 +1080,6 @@
 				75E0914A1B98B5E2008649E2 /* MTMergeCountriesOperation.m in Sources */,
 				75E090E11B98B027008649E2 /* MTRootPresenter.m in Sources */,
 				75E090D41B98B027008649E2 /* MTItemListCell.m in Sources */,
-				75E091241B98B507008649E2 /* README.md in Sources */,
 				75E090E41B98B027008649E2 /* MTRootViewController.m in Sources */,
 				75E091221B98B507008649E2 /* README.md in Sources */,
 				75E0913A1B98B5A4008649E2 /* MTCityDataManager.m in Sources */,
@@ -1114,13 +1088,11 @@
 				759974691B998352007B017A /* Model.xcdatamodeld in Sources */,
 				75E090571B9899F3008649E2 /* MTAppDelegate.m in Sources */,
 				75E090DE1B98B027008649E2 /* MTItemListTableViewController.m in Sources */,
-				75E090631B989B90008649E2 /* UIColor+MTSpecificColors.m in Sources */,
 				75E090E21B98B027008649E2 /* MTRootTablePresenter.m in Sources */,
 				75E0908E1B98AF99008649E2 /* MTCityListTablePresenter.m in Sources */,
 				75E0913B1B98B5A4008649E2 /* MTCountryDataManager.m in Sources */,
 				75E090F81B98B322008649E2 /* MTCityListRequester.m in Sources */,
 				75E0908C1B98AF99008649E2 /* MTCityListPresenter.m in Sources */,
-				75E091251B98B507008649E2 /* UIColor+colorWithHex.m in Sources */,
 				75E090911B98AF99008649E2 /* MTCountryListPresenter.m in Sources */,
 				75E090DA1B98B027008649E2 /* MTItemListPresenter.m in Sources */,
 				75E090DB1B98B027008649E2 /* MTItemListSearchPresenter.m in Sources */,
