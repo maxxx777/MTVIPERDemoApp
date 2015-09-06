@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		754BF81D1B9C46F900A060F4 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 754BF8171B9C46F900A060F4 /* JSONKit.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		754BF81E1B9C46F900A060F4 /* MTNetworkWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 754BF8191B9C46F900A060F4 /* MTNetworkWrapper.m */; };
+		754BF81F1B9C46F900A060F4 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 754BF81C1B9C46F900A060F4 /* README.md */; };
 		759974661B998308007B017A /* MTDataMapping.m in Sources */ = {isa = PBXBuildFile; fileRef = 759974651B998308007B017A /* MTDataMapping.m */; };
 		759974691B998352007B017A /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 759974671B998352007B017A /* Model.xcdatamodeld */; };
 		759974701B99835E007B017A /* MTManagedCity.m in Sources */ = {isa = PBXBuildFile; fileRef = 7599746B1B99835E007B017A /* MTManagedCity.m */; };
@@ -91,6 +94,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		754BF8161B9C46F900A060F4 /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
+		754BF8171B9C46F900A060F4 /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
+		754BF8181B9C46F900A060F4 /* MTNetworkWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTNetworkWrapper.h; sourceTree = "<group>"; };
+		754BF8191B9C46F900A060F4 /* MTNetworkWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTNetworkWrapper.m; sourceTree = "<group>"; };
+		754BF81A1B9C46F900A060F4 /* MTNetworkWrapperConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTNetworkWrapperConstants.h; sourceTree = "<group>"; };
+		754BF81B1B9C46F900A060F4 /* MTNetworkWrapperInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTNetworkWrapperInterface.h; sourceTree = "<group>"; };
+		754BF81C1B9C46F900A060F4 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		759974641B998308007B017A /* MTDataMapping.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTDataMapping.h; sourceTree = "<group>"; };
 		759974651B998308007B017A /* MTDataMapping.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTDataMapping.m; sourceTree = "<group>"; };
 		759974681B998352007B017A /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
@@ -285,6 +295,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		754BF8141B9C46F900A060F4 /* MTNetworkWrapper */ = {
+			isa = PBXGroup;
+			children = (
+				754BF8151B9C46F900A060F4 /* JSONKit */,
+				754BF8181B9C46F900A060F4 /* MTNetworkWrapper.h */,
+				754BF8191B9C46F900A060F4 /* MTNetworkWrapper.m */,
+				754BF81A1B9C46F900A060F4 /* MTNetworkWrapperConstants.h */,
+				754BF81B1B9C46F900A060F4 /* MTNetworkWrapperInterface.h */,
+				754BF81C1B9C46F900A060F4 /* README.md */,
+			);
+			path = MTNetworkWrapper;
+			sourceTree = "<group>";
+		};
+		754BF8151B9C46F900A060F4 /* JSONKit */ = {
+			isa = PBXGroup;
+			children = (
+				754BF8161B9C46F900A060F4 /* JSONKit.h */,
+				754BF8171B9C46F900A060F4 /* JSONKit.m */,
+			);
+			path = JSONKit;
+			sourceTree = "<group>";
+		};
 		759974731B9984A9007B017A /* NSString-MTFormatting */ = {
 			isa = PBXGroup;
 			children = (
@@ -803,6 +835,7 @@
 		75E091161B98B507008649E2 /* External */ = {
 			isa = PBXGroup;
 			children = (
+				754BF8141B9C46F900A060F4 /* MTNetworkWrapper */,
 				75E091261B98B564008649E2 /* MTItemListCache */,
 				75E091171B98B507008649E2 /* MTDataStore */,
 				759974731B9984A9007B017A /* NSString-MTFormatting */,
@@ -1026,6 +1059,7 @@
 				75E091601B98B6CF008649E2 /* MTCountryWebService.m in Sources */,
 				75E091331B98B564008649E2 /* README.md in Sources */,
 				75E091321B98B564008649E2 /* MTFetchedResultsControllerBasedItemListCache.m in Sources */,
+				754BF81E1B9C46F900A060F4 /* MTNetworkWrapper.m in Sources */,
 				75E0915F1B98B6CF008649E2 /* MTCityWebService.m in Sources */,
 				75E090921B98AF99008649E2 /* MTCountryListSearchPresenter.m in Sources */,
 				75E091701B98B813008649E2 /* MTMappedCountry.m in Sources */,
@@ -1044,6 +1078,7 @@
 				75E090D91B98B027008649E2 /* MTRootInteractor.m in Sources */,
 				75E090DC1B98B027008649E2 /* MTItemListTablePresenter.m in Sources */,
 				75E0914D1B98B5E2008649E2 /* MTMergeItemsOperation+MTMergeObjects.m in Sources */,
+				754BF81D1B9C46F900A060F4 /* JSONKit.m in Sources */,
 				75E090E51B98B027008649E2 /* MTRootWebService.m in Sources */,
 				75E0914A1B98B5E2008649E2 /* MTMergeCountriesOperation.m in Sources */,
 				75E090E11B98B027008649E2 /* MTRootPresenter.m in Sources */,
@@ -1056,6 +1091,7 @@
 				759974691B998352007B017A /* Model.xcdatamodeld in Sources */,
 				75E090571B9899F3008649E2 /* MTAppDelegate.m in Sources */,
 				75E090DE1B98B027008649E2 /* MTItemListTableViewController.m in Sources */,
+				754BF81F1B9C46F900A060F4 /* README.md in Sources */,
 				75E090E21B98B027008649E2 /* MTRootTablePresenter.m in Sources */,
 				75E0908E1B98AF99008649E2 /* MTCityListTablePresenter.m in Sources */,
 				75E0913B1B98B5A4008649E2 /* MTCountryDataManager.m in Sources */,
