@@ -13,3 +13,6 @@
 [submodule "VIPERDemoApp/Utilities/External/MTURLRequestBuilder"]
 	path = VIPERDemoApp/Utilities/External/MTURLRequestBuilder
 	url = https://github.com/maxxx777/MTURLRequestBuilder
+[submodule "VIPERDemoApp/Utilities/External/MTDataMapping"]
+	path = VIPERDemoApp/Utilities/External/MTDataMapping
+	url = https://github.com/maxxx777/MTDataMapping

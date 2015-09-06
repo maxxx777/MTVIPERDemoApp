@@ -14,6 +14,8 @@
 		<string>https://github.com/maxxx777/MTURLRequestBuilder</string>
 		<key>1B7035196835CBB1087118B28748EF9BD026EDEA</key>
 		<string>https://github.com/maxxx777/MTDataStore</string>
+		<key>2928E9479DBCE14FD133BAAA98D5AEAA202206BA</key>
+		<string>https://github.com/maxxx777/MTDataMapping</string>
 		<key>2D5F753908F82B92CBFDAB48E809B188427269EC</key>
 		<string>https://github.com/maxxx777/MTItemListCache</string>
 		<key>3B9A8BE0DADA29AD8C94637EBAA61A3093A10A39</key>
@@ -35,6 +37,8 @@
 		<string>../../VIPERDemoApp/Utilities/External/MTURLRequestBuilder/</string>
 		<key>1B7035196835CBB1087118B28748EF9BD026EDEA</key>
 		<string>../..VIPERDemoApp/Utilities/External/MTDataStore</string>
+		<key>2928E9479DBCE14FD133BAAA98D5AEAA202206BA</key>
+		<string>../../VIPERDemoApp/Utilities/External/MTDataMapping/</string>
 		<key>2D5F753908F82B92CBFDAB48E809B188427269EC</key>
 		<string>../..VIPERDemoApp/Utilities/External/MTItemListCache</string>
 		<key>3B9A8BE0DADA29AD8C94637EBAA61A3093A10A39</key>
@@ -63,6 +67,14 @@
 			<string>7B3173A9A8711E26B2B7E8EB32A82862FE9BF726</string>
 			<key>IDESourceControlWCCName</key>
 			<string></string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>2928E9479DBCE14FD133BAAA98D5AEAA202206BA</string>
+			<key>IDESourceControlWCCName</key>
+			<string>MTDataMapping</string>
 		</dict>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
