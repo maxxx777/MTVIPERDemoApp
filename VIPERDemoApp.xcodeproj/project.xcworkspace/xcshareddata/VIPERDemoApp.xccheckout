@@ -10,6 +10,8 @@
 	<string>VIPERDemoApp</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
+		<key>0BA9801529B5656EA07DBE93DEE82EC1BA3FBD33</key>
+		<string>https://github.com/maxxx777/MTURLRequestBuilder</string>
 		<key>1B7035196835CBB1087118B28748EF9BD026EDEA</key>
 		<string>https://github.com/maxxx777/MTDataStore</string>
 		<key>2D5F753908F82B92CBFDAB48E809B188427269EC</key>
@@ -29,6 +31,8 @@
 	<string>VIPERDemoApp.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
+		<key>0BA9801529B5656EA07DBE93DEE82EC1BA3FBD33</key>
+		<string>../../VIPERDemoApp/Utilities/External/MTURLRequestBuilder/</string>
 		<key>1B7035196835CBB1087118B28748EF9BD026EDEA</key>
 		<string>../..VIPERDemoApp/Utilities/External/MTDataStore</string>
 		<key>2D5F753908F82B92CBFDAB48E809B188427269EC</key>
@@ -83,6 +87,14 @@
 			<string>3B9A8BE0DADA29AD8C94637EBAA61A3093A10A39</string>
 			<key>IDESourceControlWCCName</key>
 			<string>MTNetworkWrapper</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>0BA9801529B5656EA07DBE93DEE82EC1BA3FBD33</string>
+			<key>IDESourceControlWCCName</key>
+			<string>MTURLRequestBuilder</string>
 		</dict>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>

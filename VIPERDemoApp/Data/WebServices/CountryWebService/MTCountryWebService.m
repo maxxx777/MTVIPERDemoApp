@@ -15,9 +15,9 @@
 
 - (void)fetchCountryListWithCompletion:(MTRootServiceRequestCompletionBlock)completion
 {
-    NSString *scheme = MTRequestBuilderURLSchemeHTTP;
+    NSString *scheme = MTURLRequestBuilderURLSchemeHTTP;
     NSString *path = [NSString stringWithFormat:@"/countryInfoJSON?username=%@", [NSString mt_apiUserName]];
-    NSString *method = MTRequestBuilderHTTPMethodGet;
+    NSString *method = MTURLRequestBuilderHTTPMethodGet;
     
     NSURLRequest *urlRequest = [self.requestBuilder makeRequestWithScheme:scheme
                                                                      host:[NSString mt_appHostName]

@@ -10,7 +10,7 @@
 #import "MTNetworkWrapper.h"
 #import "MTWebServiceSerializer.h"
 #import "MTWebServiceParser.h"
-#import "MTRequestBuilder.h"
+#import "MTURLRequestBuilder.h"
 
 @interface MTRootWebService ()
 
@@ -30,7 +30,7 @@
 - (instancetype)initWithNetworkWrapper:(id<MTNetworkWrapperInterface>)networkWrapper
                             serializer:(id<MTWebServiceSerializerInterface>)serializer
                                 parser:(id<MTWebServiceParserInterface>)parser
-                        requestBuilder:(id<MTRequestBuilderInterface>)requestBuilder
+                        requestBuilder:(id<MTURLRequestBuilderInterface>)requestBuilder
 {
     self = [super init];
     if (self) {
@@ -46,7 +46,7 @@
 
 - (instancetype)initWithSerializer:(id<MTWebServiceSerializerInterface>)serializer
                             parser:(id<MTWebServiceParserInterface>)parser
-                    requestBuilder:(id<MTRequestBuilderInterface>)requestBuilder
+                    requestBuilder:(id<MTURLRequestBuilderInterface>)requestBuilder
 {
     MTNetworkWrapper *networkWrapper = [[MTNetworkWrapper alloc] init];
     return [self initWithNetworkWrapper:networkWrapper
@@ -60,7 +60,7 @@
     MTNetworkWrapper *networkWrapper = [[MTNetworkWrapper alloc] init];
     MTWebServiceSerializer *serializer = [[MTWebServiceSerializer alloc] init];
     MTWebServiceParser *parser = [[MTWebServiceParser alloc] init];
-    MTRequestBuilder *requestBuilder = [[MTRequestBuilder alloc] init];
+    MTURLRequestBuilder *requestBuilder = [[MTURLRequestBuilder alloc] init];
     return [self initWithNetworkWrapper:networkWrapper
                              serializer:serializer
                                  parser:parser

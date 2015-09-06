@@ -16,9 +16,9 @@
 - (void)fetchCityListWithCountryCode:(NSString *)countryCode
                           completion:(MTRootServiceRequestCompletionBlock)completion
 {
-    NSString *scheme = MTRequestBuilderURLSchemeHTTP;
+    NSString *scheme = MTURLRequestBuilderURLSchemeHTTP;
     NSString *path =  [NSString stringWithFormat:@"/searchJSON?username=%@&featureClass=P&country=%@", [NSString mt_apiUserName], countryCode];
-    NSString *method = MTRequestBuilderHTTPMethodGet;
+    NSString *method = MTURLRequestBuilderHTTPMethodGet;
     
     NSURLRequest *urlRequest = [self.requestBuilder makeRequestWithScheme:scheme
                                                                      host:[NSString mt_appHostName]
