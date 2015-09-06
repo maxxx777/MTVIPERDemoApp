@@ -81,7 +81,11 @@
 - (void)onDidObjectsMergeWithError:(NSError *)error
               isOperationCancelled:(BOOL)isOperationCancelled
 {
-    [self cacheItemListWithCompletion:self.processCountryCompletion];
+    [[NSOperationQueue mainQueue] addOperationWithBlock:^
+    {
+        [self cacheItemListWithCompletion:self.processCountryCompletion];
+    }];
+    
 }
 
 #pragma mark - Helper
