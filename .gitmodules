@@ -1,6 +1,3 @@
-[submodule "VIPERDemoApp/Utilities/External/MTDataStore"]
-	path = VIPERDemoApp/Utilities/External/MTDataStore
-	url = https://github.com/maxxx777/MTDataStore
 [submodule "VIPERDemoApp/Utilities/External/MTItemListCache"]
 	path = VIPERDemoApp/Utilities/External/MTItemListCache
 	url = https://github.com/maxxx777/MTItemListCache
@@ -13,6 +10,6 @@
 [submodule "VIPERDemoApp/Utilities/External/MTURLRequestBuilder"]
 	path = VIPERDemoApp/Utilities/External/MTURLRequestBuilder
 	url = https://github.com/maxxx777/MTURLRequestBuilder
-[submodule "VIPERDemoApp/Utilities/External/MTDataMapping"]
-	path = VIPERDemoApp/Utilities/External/MTDataMapping
-	url = https://github.com/maxxx777/MTDataMapping
+[submodule "VIPERDemoApp/Utilities/External/MTDataLayer"]
+	path = VIPERDemoApp/Utilities/External/MTDataLayer
+	url = https://github.com/maxxx777/MTDataLayer

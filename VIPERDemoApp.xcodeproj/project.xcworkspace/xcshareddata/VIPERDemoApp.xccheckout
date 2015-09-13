@@ -28,6 +28,8 @@
 		<string>https://github.com/maxxx777/NSString-MTFormatting</string>
 		<key>DE9F33B77530C6FB52013FB58C7C7CEA46497AE6</key>
 		<string>https://github.com/maxxx777/MTVIPERDemoApp</string>
+		<key>DFFAE996F9103407D4245264929536F346941CFC</key>
+		<string>https://github.com/maxxx777/MTDataLayer</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>VIPERDemoApp.xcodeproj</string>
@@ -51,6 +53,8 @@
 		<string>../../VIPERDemoApp/Utilities/External/NSString-MTFormatting/</string>
 		<key>DE9F33B77530C6FB52013FB58C7C7CEA46497AE6</key>
 		<string>../..</string>
+		<key>DFFAE996F9103407D4245264929536F346941CFC</key>
+		<string>../../VIPERDemoApp/Utilities/External/MTDataLayer/</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/maxxx777/MTVIPERDemoApp</string>
@@ -67,6 +71,14 @@
 			<string>7B3173A9A8711E26B2B7E8EB32A82862FE9BF726</string>
 			<key>IDESourceControlWCCName</key>
 			<string></string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>DFFAE996F9103407D4245264929536F346941CFC</string>
+			<key>IDESourceControlWCCName</key>
+			<string>MTDataLayer</string>
 		</dict>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>

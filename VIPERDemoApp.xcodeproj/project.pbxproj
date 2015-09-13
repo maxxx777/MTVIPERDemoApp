@@ -13,13 +13,17 @@
 		754BF8301B9C5CB700A060F4 /* MTMappedCity.m in Sources */ = {isa = PBXBuildFile; fileRef = 754BF82B1B9C5CB700A060F4 /* MTMappedCity.m */; };
 		754BF8311B9C5CB700A060F4 /* MTMappedCountry.m in Sources */ = {isa = PBXBuildFile; fileRef = 754BF82D1B9C5CB700A060F4 /* MTMappedCountry.m */; };
 		754BF8321B9C5CB700A060F4 /* MTMappedItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 754BF82F1B9C5CB700A060F4 /* MTMappedItem.m */; };
-		754BF8381B9C5D5700A060F4 /* MTDataMapping.m in Sources */ = {isa = PBXBuildFile; fileRef = 754BF8351B9C5D5700A060F4 /* MTDataMapping.m */; };
 		759974691B998352007B017A /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 759974671B998352007B017A /* Model.xcdatamodeld */; };
 		759974701B99835E007B017A /* MTManagedCity.m in Sources */ = {isa = PBXBuildFile; fileRef = 7599746B1B99835E007B017A /* MTManagedCity.m */; };
 		759974711B99835E007B017A /* MTManagedCountry.m in Sources */ = {isa = PBXBuildFile; fileRef = 7599746D1B99835E007B017A /* MTManagedCountry.m */; };
 		759974721B99835E007B017A /* MTManagedItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 7599746F1B99835E007B017A /* MTManagedItem.m */; };
 		759974771B9984A9007B017A /* NSString+MTFormatting.m in Sources */ = {isa = PBXBuildFile; fileRef = 759974751B9984A9007B017A /* NSString+MTFormatting.m */; };
 		7599747B1B99852D007B017A /* Base.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7599747A1B99852D007B017A /* Base.storyboard */; };
+		759976D41BA5EB9E002CC31F /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 759976D31BA5EB9E002CC31F /* README.md */; };
+		759976E21BA5EC61002CC31F /* MTDataMapping.m in Sources */ = {isa = PBXBuildFile; fileRef = 759976D71BA5EC61002CC31F /* MTDataMapping.m */; };
+		759976E31BA5EC61002CC31F /* MTDataStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 759976DB1BA5EC61002CC31F /* MTDataStore.m */; };
+		759976E41BA5EC61002CC31F /* NSObject+MTMergeObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 759976DF1BA5EC61002CC31F /* NSObject+MTMergeObject.m */; };
+		759976E51BA5EC61002CC31F /* NSObject+MTMergeObjects.m in Sources */ = {isa = PBXBuildFile; fileRef = 759976E11BA5EC61002CC31F /* NSObject+MTMergeObjects.m */; };
 		75E090361B98989F008649E2 /* VIPERDemoAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 75E090351B98989F008649E2 /* VIPERDemoAppTests.m */; };
 		75E090561B9899F3008649E2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75E090401B9899F3008649E2 /* Images.xcassets */; };
 		75E090571B9899F3008649E2 /* MTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 75E090421B9899F3008649E2 /* MTAppDelegate.m */; };
@@ -61,7 +65,6 @@
 		75E091031B98B409008649E2 /* MTTableFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 75E090FE1B98B409008649E2 /* MTTableFooterView.m */; };
 		75E091041B98B409008649E2 /* MTTableViewSectionFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 75E091001B98B409008649E2 /* MTTableViewSectionFooter.m */; };
 		75E091051B98B409008649E2 /* MTTableViewSectionHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 75E091021B98B409008649E2 /* MTTableViewSectionHeader.m */; };
-		75E091211B98B507008649E2 /* MTDataStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 75E091191B98B507008649E2 /* MTDataStore.m */; };
 		75E091311B98B564008649E2 /* MTArrayBasedItemListCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 75E091281B98B564008649E2 /* MTArrayBasedItemListCache.m */; };
 		75E091321B98B564008649E2 /* MTFetchedResultsControllerBasedItemListCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 75E0912B1B98B564008649E2 /* MTFetchedResultsControllerBasedItemListCache.m */; };
 		75E0913A1B98B5A4008649E2 /* MTCityDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 75E091351B98B5A4008649E2 /* MTCityDataManager.m */; };
@@ -69,8 +72,6 @@
 		75E091491B98B5E2008649E2 /* MTMergeCitiesOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 75E0913D1B98B5E2008649E2 /* MTMergeCitiesOperation.m */; };
 		75E0914A1B98B5E2008649E2 /* MTMergeCountriesOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 75E0913F1B98B5E2008649E2 /* MTMergeCountriesOperation.m */; };
 		75E0914B1B98B5E2008649E2 /* MTMergeItemsOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 75E091411B98B5E2008649E2 /* MTMergeItemsOperation.m */; };
-		75E0914C1B98B5E2008649E2 /* MTMergeItemsOperation+MTMergeObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 75E091431B98B5E2008649E2 /* MTMergeItemsOperation+MTMergeObject.m */; };
-		75E0914D1B98B5E2008649E2 /* MTMergeItemsOperation+MTMergeObjects.m in Sources */ = {isa = PBXBuildFile; fileRef = 75E091451B98B5E2008649E2 /* MTMergeItemsOperation+MTMergeObjects.m */; };
 		75E0914E1B98B5E2008649E2 /* MTOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 75E091481B98B5E2008649E2 /* MTOperationManager.m */; };
 		75E0915F1B98B6CF008649E2 /* MTCityWebService.m in Sources */ = {isa = PBXBuildFile; fileRef = 75E091511B98B6CF008649E2 /* MTCityWebService.m */; };
 		75E091601B98B6CF008649E2 /* MTCountryWebService.m in Sources */ = {isa = PBXBuildFile; fileRef = 75E091551B98B6CF008649E2 /* MTCountryWebService.m */; };
@@ -107,10 +108,6 @@
 		754BF82D1B9C5CB700A060F4 /* MTMappedCountry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTMappedCountry.m; sourceTree = "<group>"; };
 		754BF82E1B9C5CB700A060F4 /* MTMappedItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTMappedItem.h; sourceTree = "<group>"; };
 		754BF82F1B9C5CB700A060F4 /* MTMappedItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTMappedItem.m; sourceTree = "<group>"; };
-		754BF8341B9C5D5700A060F4 /* MTDataMapping.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTDataMapping.h; sourceTree = "<group>"; };
-		754BF8351B9C5D5700A060F4 /* MTDataMapping.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTDataMapping.m; sourceTree = "<group>"; };
-		754BF8361B9C5D5700A060F4 /* MTDataMappingInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTDataMappingInterface.h; sourceTree = "<group>"; };
-		754BF8371B9C5D5700A060F4 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		759974681B998352007B017A /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 		7599746A1B99835E007B017A /* MTManagedCity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTManagedCity.h; sourceTree = "<group>"; };
 		7599746B1B99835E007B017A /* MTManagedCity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTManagedCity.m; sourceTree = "<group>"; };
@@ -122,6 +119,17 @@
 		759974751B9984A9007B017A /* NSString+MTFormatting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MTFormatting.m"; sourceTree = "<group>"; };
 		759974761B9984A9007B017A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		7599747A1B99852D007B017A /* Base.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Base.storyboard; sourceTree = "<group>"; };
+		759976D31BA5EB9E002CC31F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		759976D61BA5EC61002CC31F /* MTDataMapping.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTDataMapping.h; sourceTree = "<group>"; };
+		759976D71BA5EC61002CC31F /* MTDataMapping.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTDataMapping.m; sourceTree = "<group>"; };
+		759976D81BA5EC61002CC31F /* MTDataMappingInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTDataMappingInterface.h; sourceTree = "<group>"; };
+		759976DA1BA5EC61002CC31F /* MTDataStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTDataStore.h; sourceTree = "<group>"; };
+		759976DB1BA5EC61002CC31F /* MTDataStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTDataStore.m; sourceTree = "<group>"; };
+		759976DC1BA5EC61002CC31F /* MTDataStoreConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTDataStoreConstants.h; sourceTree = "<group>"; };
+		759976DE1BA5EC61002CC31F /* NSObject+MTMergeObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MTMergeObject.h"; sourceTree = "<group>"; };
+		759976DF1BA5EC61002CC31F /* NSObject+MTMergeObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MTMergeObject.m"; sourceTree = "<group>"; };
+		759976E01BA5EC61002CC31F /* NSObject+MTMergeObjects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MTMergeObjects.h"; sourceTree = "<group>"; };
+		759976E11BA5EC61002CC31F /* NSObject+MTMergeObjects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MTMergeObjects.m"; sourceTree = "<group>"; };
 		75E090131B98989F008649E2 /* VIPERDemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VIPERDemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75E0902F1B98989F008649E2 /* VIPERDemoAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VIPERDemoAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		75E090341B98989F008649E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -225,10 +233,6 @@
 		75E091001B98B409008649E2 /* MTTableViewSectionFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTTableViewSectionFooter.m; sourceTree = "<group>"; };
 		75E091011B98B409008649E2 /* MTTableViewSectionHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTTableViewSectionHeader.h; sourceTree = "<group>"; };
 		75E091021B98B409008649E2 /* MTTableViewSectionHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTTableViewSectionHeader.m; sourceTree = "<group>"; };
-		75E091181B98B507008649E2 /* MTDataStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTDataStore.h; sourceTree = "<group>"; };
-		75E091191B98B507008649E2 /* MTDataStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTDataStore.m; sourceTree = "<group>"; };
-		75E0911A1B98B507008649E2 /* MTDataStoreConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTDataStoreConstants.h; sourceTree = "<group>"; };
-		75E0911B1B98B507008649E2 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		75E091271B98B564008649E2 /* MTArrayBasedItemListCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTArrayBasedItemListCache.h; sourceTree = "<group>"; };
 		75E091281B98B564008649E2 /* MTArrayBasedItemListCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTArrayBasedItemListCache.m; sourceTree = "<group>"; };
 		75E091291B98B564008649E2 /* MTArrayBasedItemListCacheInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTArrayBasedItemListCacheInterface.h; sourceTree = "<group>"; };
@@ -251,10 +255,6 @@
 		75E0913F1B98B5E2008649E2 /* MTMergeCountriesOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTMergeCountriesOperation.m; sourceTree = "<group>"; };
 		75E091401B98B5E2008649E2 /* MTMergeItemsOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTMergeItemsOperation.h; sourceTree = "<group>"; };
 		75E091411B98B5E2008649E2 /* MTMergeItemsOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTMergeItemsOperation.m; sourceTree = "<group>"; };
-		75E091421B98B5E2008649E2 /* MTMergeItemsOperation+MTMergeObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MTMergeItemsOperation+MTMergeObject.h"; sourceTree = "<group>"; };
-		75E091431B98B5E2008649E2 /* MTMergeItemsOperation+MTMergeObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MTMergeItemsOperation+MTMergeObject.m"; sourceTree = "<group>"; };
-		75E091441B98B5E2008649E2 /* MTMergeItemsOperation+MTMergeObjects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MTMergeItemsOperation+MTMergeObjects.h"; sourceTree = "<group>"; };
-		75E091451B98B5E2008649E2 /* MTMergeItemsOperation+MTMergeObjects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MTMergeItemsOperation+MTMergeObjects.m"; sourceTree = "<group>"; };
 		75E091461B98B5E2008649E2 /* MTMergeObjectsOperationDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTMergeObjectsOperationDelegate.h; sourceTree = "<group>"; };
 		75E091471B98B5E2008649E2 /* MTOperationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTOperationManager.h; sourceTree = "<group>"; };
 		75E091481B98B5E2008649E2 /* MTOperationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTOperationManager.m; sourceTree = "<group>"; };
@@ -271,8 +271,6 @@
 		75E0915D1B98B6CF008649E2 /* MTWebServiceSerializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTWebServiceSerializer.m; sourceTree = "<group>"; };
 		75E0915E1B98B6CF008649E2 /* MTWebServiceSerializerInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTWebServiceSerializerInterface.h; sourceTree = "<group>"; };
 		75E091781B98B907008649E2 /* MTRootServiceConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTRootServiceConstants.h; sourceTree = "<group>"; };
-		75E0917A1B98B977008649E2 /* MTErrorHandlingConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTErrorHandlingConstants.h; sourceTree = "<group>"; };
-		75E0917B1B98B977008649E2 /* MTErrorTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTErrorTypes.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -340,17 +338,6 @@
 			path = MappedClasses;
 			sourceTree = "<group>";
 		};
-		754BF8331B9C5D5700A060F4 /* MTDataMapping */ = {
-			isa = PBXGroup;
-			children = (
-				754BF8341B9C5D5700A060F4 /* MTDataMapping.h */,
-				754BF8351B9C5D5700A060F4 /* MTDataMapping.m */,
-				754BF8361B9C5D5700A060F4 /* MTDataMappingInterface.h */,
-				754BF8371B9C5D5700A060F4 /* README.md */,
-			);
-			path = MTDataMapping;
-			sourceTree = "<group>";
-		};
 		759974731B9984A9007B017A /* NSString-MTFormatting */ = {
 			isa = PBXGroup;
 			children = (
@@ -367,6 +354,48 @@
 				7599747A1B99852D007B017A /* Base.storyboard */,
 			);
 			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		759976D21BA5EB9E002CC31F /* MTDataLayer */ = {
+			isa = PBXGroup;
+			children = (
+				759976D51BA5EC61002CC31F /* DataMapping */,
+				759976D91BA5EC61002CC31F /* DataStore */,
+				759976DD1BA5EC61002CC31F /* MergeData */,
+				759976D31BA5EB9E002CC31F /* README.md */,
+			);
+			path = MTDataLayer;
+			sourceTree = "<group>";
+		};
+		759976D51BA5EC61002CC31F /* DataMapping */ = {
+			isa = PBXGroup;
+			children = (
+				759976D61BA5EC61002CC31F /* MTDataMapping.h */,
+				759976D71BA5EC61002CC31F /* MTDataMapping.m */,
+				759976D81BA5EC61002CC31F /* MTDataMappingInterface.h */,
+			);
+			path = DataMapping;
+			sourceTree = "<group>";
+		};
+		759976D91BA5EC61002CC31F /* DataStore */ = {
+			isa = PBXGroup;
+			children = (
+				759976DA1BA5EC61002CC31F /* MTDataStore.h */,
+				759976DB1BA5EC61002CC31F /* MTDataStore.m */,
+				759976DC1BA5EC61002CC31F /* MTDataStoreConstants.h */,
+			);
+			path = DataStore;
+			sourceTree = "<group>";
+		};
+		759976DD1BA5EC61002CC31F /* MergeData */ = {
+			isa = PBXGroup;
+			children = (
+				759976DE1BA5EC61002CC31F /* NSObject+MTMergeObject.h */,
+				759976DF1BA5EC61002CC31F /* NSObject+MTMergeObject.m */,
+				759976E01BA5EC61002CC31F /* NSObject+MTMergeObjects.h */,
+				759976E11BA5EC61002CC31F /* NSObject+MTMergeObjects.m */,
+			);
+			path = MergeData;
 			sourceTree = "<group>";
 		};
 		75E0900A1B98989F008649E2 = {
@@ -509,10 +538,6 @@
 				75E0913F1B98B5E2008649E2 /* MTMergeCountriesOperation.m */,
 				75E091401B98B5E2008649E2 /* MTMergeItemsOperation.h */,
 				75E091411B98B5E2008649E2 /* MTMergeItemsOperation.m */,
-				75E091421B98B5E2008649E2 /* MTMergeItemsOperation+MTMergeObject.h */,
-				75E091431B98B5E2008649E2 /* MTMergeItemsOperation+MTMergeObject.m */,
-				75E091441B98B5E2008649E2 /* MTMergeItemsOperation+MTMergeObjects.h */,
-				75E091451B98B5E2008649E2 /* MTMergeItemsOperation+MTMergeObjects.m */,
 				75E091461B98B5E2008649E2 /* MTMergeObjectsOperationDelegate.h */,
 				75E091471B98B5E2008649E2 /* MTOperationManager.h */,
 				75E091481B98B5E2008649E2 /* MTOperationManager.m */,
@@ -570,7 +595,6 @@
 			isa = PBXGroup;
 			children = (
 				75E090FC1B98B409008649E2 /* CustomControls */,
-				75E091791B98B977008649E2 /* ErrorHandling */,
 				75E091161B98B507008649E2 /* External */,
 				75E090641B98AE3D008649E2 /* MTSpecificColorsInterface.h */,
 				75E090651B98AE3D008649E2 /* MTSpecificStringsInterface.h */,
@@ -845,25 +869,13 @@
 		75E091161B98B507008649E2 /* External */ = {
 			isa = PBXGroup;
 			children = (
-				754BF8331B9C5D5700A060F4 /* MTDataMapping */,
+				759976D21BA5EB9E002CC31F /* MTDataLayer */,
 				754BF8201B9C4ADB00A060F4 /* MTURLRequestBuilder */,
 				754BF8141B9C46F900A060F4 /* MTNetworkWrapper */,
 				75E091261B98B564008649E2 /* MTItemListCache */,
-				75E091171B98B507008649E2 /* MTDataStore */,
 				759974731B9984A9007B017A /* NSString-MTFormatting */,
 			);
 			path = External;
-			sourceTree = "<group>";
-		};
-		75E091171B98B507008649E2 /* MTDataStore */ = {
-			isa = PBXGroup;
-			children = (
-				75E091181B98B507008649E2 /* MTDataStore.h */,
-				75E091191B98B507008649E2 /* MTDataStore.m */,
-				75E0911A1B98B507008649E2 /* MTDataStoreConstants.h */,
-				75E0911B1B98B507008649E2 /* README.md */,
-			);
-			path = MTDataStore;
 			sourceTree = "<group>";
 		};
 		75E091261B98B564008649E2 /* MTItemListCache */ = {
@@ -921,15 +933,6 @@
 				75E0915E1B98B6CF008649E2 /* MTWebServiceSerializerInterface.h */,
 			);
 			path = WebServiceSerializer;
-			sourceTree = "<group>";
-		};
-		75E091791B98B977008649E2 /* ErrorHandling */ = {
-			isa = PBXGroup;
-			children = (
-				75E0917A1B98B977008649E2 /* MTErrorHandlingConstants.h */,
-				75E0917B1B98B977008649E2 /* MTErrorTypes.h */,
-			);
-			path = ErrorHandling;
 			sourceTree = "<group>";
 		};
 		9A25BBD85FC0E1DCFA83923E /* Frameworks */ = {
@@ -1045,7 +1048,6 @@
 				754BF8301B9C5CB700A060F4 /* MTMappedCity.m in Sources */,
 				75E091611B98B6CF008649E2 /* MTWebServiceParser.m in Sources */,
 				75E0914B1B98B5E2008649E2 /* MTMergeItemsOperation.m in Sources */,
-				75E091211B98B507008649E2 /* MTDataStore.m in Sources */,
 				75E0908D1B98AF99008649E2 /* MTCityListSearchPresenter.m in Sources */,
 				75E091311B98B564008649E2 /* MTArrayBasedItemListCache.m in Sources */,
 				75E090FA1B98B322008649E2 /* MTItemListRequester.m in Sources */,
@@ -1054,29 +1056,30 @@
 				754BF8261B9C4ADB00A060F4 /* MTURLRequestBuilder.m in Sources */,
 				75E091051B98B409008649E2 /* MTTableViewSectionHeader.m in Sources */,
 				75E090D61B98B027008649E2 /* MTRootDataManager.m in Sources */,
+				759976E41BA5EC61002CC31F /* NSObject+MTMergeObject.m in Sources */,
 				754BF8321B9C5CB700A060F4 /* MTMappedItem.m in Sources */,
 				75E090DD1B98B027008649E2 /* MTItemListSearchViewController.m in Sources */,
 				75E090FB1B98B322008649E2 /* MTItemListSearcher.m in Sources */,
+				759976E21BA5EC61002CC31F /* MTDataMapping.m in Sources */,
 				75E091601B98B6CF008649E2 /* MTCountryWebService.m in Sources */,
+				759976E51BA5EC61002CC31F /* NSObject+MTMergeObjects.m in Sources */,
 				75E091321B98B564008649E2 /* MTFetchedResultsControllerBasedItemListCache.m in Sources */,
 				754BF81E1B9C46F900A060F4 /* MTNetworkWrapper.m in Sources */,
 				75E0915F1B98B6CF008649E2 /* MTCityWebService.m in Sources */,
 				75E090921B98AF99008649E2 /* MTCountryListSearchPresenter.m in Sources */,
 				75E091621B98B6CF008649E2 /* MTWebServiceSerializer.m in Sources */,
 				75E090901B98AF99008649E2 /* MTCityListWireframe.m in Sources */,
+				759976D41BA5EB9E002CC31F /* README.md in Sources */,
 				754BF8311B9C5CB700A060F4 /* MTMappedCountry.m in Sources */,
 				75E090931B98AF99008649E2 /* MTCountryListTablePresenter.m in Sources */,
 				75E091041B98B409008649E2 /* MTTableViewSectionFooter.m in Sources */,
 				75E090951B98AF99008649E2 /* MTCountryListWireframe.m in Sources */,
-				754BF8381B9C5D5700A060F4 /* MTDataMapping.m in Sources */,
 				75E090611B989B90008649E2 /* MTAppModulesConnector.m in Sources */,
 				759974711B99835E007B017A /* MTManagedCountry.m in Sources */,
 				75E090D51B98B027008649E2 /* MTRootCell.m in Sources */,
-				75E0914C1B98B5E2008649E2 /* MTMergeItemsOperation+MTMergeObject.m in Sources */,
 				75E090F71B98B322008649E2 /* MTItemListFetcher.m in Sources */,
 				75E090D91B98B027008649E2 /* MTRootInteractor.m in Sources */,
 				75E090DC1B98B027008649E2 /* MTItemListTablePresenter.m in Sources */,
-				75E0914D1B98B5E2008649E2 /* MTMergeItemsOperation+MTMergeObjects.m in Sources */,
 				754BF81D1B9C46F900A060F4 /* JSONKit.m in Sources */,
 				75E090E51B98B027008649E2 /* MTRootWebService.m in Sources */,
 				75E0914A1B98B5E2008649E2 /* MTMergeCountriesOperation.m in Sources */,
@@ -1096,6 +1099,7 @@
 				75E090911B98AF99008649E2 /* MTCountryListPresenter.m in Sources */,
 				75E090DA1B98B027008649E2 /* MTItemListPresenter.m in Sources */,
 				75E090DB1B98B027008649E2 /* MTItemListSearchPresenter.m in Sources */,
+				759976E31BA5EC61002CC31F /* MTDataStore.m in Sources */,
 				75E091031B98B409008649E2 /* MTTableFooterView.m in Sources */,
 				75E090E61B98B027008649E2 /* MTRootWireframe.m in Sources */,
 				759974721B99835E007B017A /* MTManagedItem.m in Sources */,

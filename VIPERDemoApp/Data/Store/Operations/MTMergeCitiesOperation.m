@@ -10,9 +10,8 @@
 #import "MTMergeObjectsOperationDelegate.h"
 #import "NSString+MTSpecificStrings.h"
 #import "MTDataStore.h"
-#import "MTErrorHandlingConstants.h"
-#import "MTMergeItemsOperation+MTMergeObjects.h"
-#import "MTMergeItemsOperation+MTMergeObject.h"
+#import "NSObject+MTMergeObjects.h"
+#import "NSObject+MTMergeObject.h"
 #import "MTMappedCountry.h"
 
 @interface MTMergeCitiesOperation ()
