@@ -19,7 +19,7 @@ Horizontal architecture of the app consists of modules. Each screen of the app i
 
 Vertical architecture of a stack is presented on the picture.
 
-!https://cloud.githubusercontent.com/assets/2142832/9882759/23f43bf8-5bf8-11e5-9723-58b91838c2ad.png
+!(https://cloud.githubusercontent.com/assets/2142832/9882759/23f43bf8-5bf8-11e5-9723-58b91838c2ad.png)
 
 **View** drawing can be done either programmacically or in storyboards/XIBs.
 **ViewController** does only common UIKit things, so it can be reused for a some of modules.
