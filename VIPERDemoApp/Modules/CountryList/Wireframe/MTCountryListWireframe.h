@@ -6,11 +6,12 @@
 //  Copyright (c) 2015 MAXIM TSVETKOV. All rights reserved.
 //
 
+#import "MTRootWireframe.h"
 #import "MTCountryListModuleInterface.h"
 
 @protocol MTCityListModuleInterface;
 
-@interface MTCountryListWireframe : NSObject
+@interface MTCountryListWireframe : MTRootWireframe
 <
     MTCountryListModuleInterface
 >

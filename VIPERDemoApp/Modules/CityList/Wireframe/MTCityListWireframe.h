@@ -6,9 +6,10 @@
 //  Copyright (c) 2015 MAXIM TSVETKOV. All rights reserved.
 //
 
+#import "MTRootWireframe.h"
 #import "MTCityListModuleInterface.h"
 
-@interface MTCityListWireframe : NSObject
+@interface MTCityListWireframe : MTRootWireframe
 <
     MTCityListModuleInterface
 >
