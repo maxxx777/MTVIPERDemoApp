@@ -49,7 +49,7 @@ Thanks in advance for any advice and remarks.
 Further Reading:
 ====================
 
-http://mutualmobile.github.io/blog/2013/12/04/viper-introduction/
-https://www.objc.io/issues/13-architecture/viper/
-https://medium.com/brigade-engineering/brigades-experience-using-an-mvc-alternative-36ef1601a41f
-https://speakerdeck.com/sergigracia/clean-architecture-viper
+- http://mutualmobile.github.io/blog/2013/12/04/viper-introduction/
+- https://www.objc.io/issues/13-architecture/viper/
+- https://medium.com/brigade-engineering/brigades-experience-using-an-mvc-alternative-36ef1601a41f
+- https://speakerdeck.com/sergigracia/clean-architecture-viper
