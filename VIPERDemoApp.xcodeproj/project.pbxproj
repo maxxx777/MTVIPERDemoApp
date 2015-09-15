@@ -23,6 +23,7 @@
 		759976F31BA5EFB1002CC31F /* MTURLRequestBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 759976F01BA5EFB1002CC31F /* MTURLRequestBuilder.m */; };
 		759976FB1BA5EFCC002CC31F /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 759976F61BA5EFCC002CC31F /* JSONKit.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		759976FC1BA5EFCC002CC31F /* MTNetworkWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 759976F81BA5EFCC002CC31F /* MTNetworkWrapper.m */; };
+		75B3F4921BA8872000B44D45 /* MTAlertViewWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 75B3F48E1BA8872000B44D45 /* MTAlertViewWrapper.m */; };
 		75E090361B98989F008649E2 /* VIPERDemoAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 75E090351B98989F008649E2 /* VIPERDemoAppTests.m */; };
 		75E090561B9899F3008649E2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75E090401B9899F3008649E2 /* Images.xcassets */; };
 		75E090571B9899F3008649E2 /* MTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 75E090421B9899F3008649E2 /* MTAppDelegate.m */; };
@@ -125,6 +126,10 @@
 		759976F81BA5EFCC002CC31F /* MTNetworkWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MTNetworkWrapper.m; path = Classes/MTNetworkWrapper.m; sourceTree = "<group>"; };
 		759976F91BA5EFCC002CC31F /* MTNetworkWrapperConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MTNetworkWrapperConstants.h; path = Classes/MTNetworkWrapperConstants.h; sourceTree = "<group>"; };
 		759976FA1BA5EFCC002CC31F /* MTNetworkWrapperInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MTNetworkWrapperInterface.h; path = Classes/MTNetworkWrapperInterface.h; sourceTree = "<group>"; };
+		75B3F48D1BA8872000B44D45 /* MTAlertViewWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTAlertViewWrapper.h; sourceTree = "<group>"; };
+		75B3F48E1BA8872000B44D45 /* MTAlertViewWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTAlertViewWrapper.m; sourceTree = "<group>"; };
+		75B3F48F1BA8872000B44D45 /* MTAlertViewWrapperConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTAlertViewWrapperConstants.h; sourceTree = "<group>"; };
+		75B3F4901BA8872000B44D45 /* MTAlertViewWrapperInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTAlertViewWrapperInterface.h; sourceTree = "<group>"; };
 		75E090131B98989F008649E2 /* VIPERDemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VIPERDemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75E0902F1B98989F008649E2 /* VIPERDemoAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VIPERDemoAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		75E090341B98989F008649E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -388,6 +393,17 @@
 			);
 			name = JSONKit;
 			path = Classes/JSONKit;
+			sourceTree = "<group>";
+		};
+		75B3F48C1BA8872000B44D45 /* MTAlertViewWrapper */ = {
+			isa = PBXGroup;
+			children = (
+				75B3F48D1BA8872000B44D45 /* MTAlertViewWrapper.h */,
+				75B3F48E1BA8872000B44D45 /* MTAlertViewWrapper.m */,
+				75B3F48F1BA8872000B44D45 /* MTAlertViewWrapperConstants.h */,
+				75B3F4901BA8872000B44D45 /* MTAlertViewWrapperInterface.h */,
+			);
+			path = MTAlertViewWrapper;
 			sourceTree = "<group>";
 		};
 		75E0900A1B98989F008649E2 = {
@@ -861,6 +877,7 @@
 		75E091161B98B507008649E2 /* External */ = {
 			isa = PBXGroup;
 			children = (
+				75B3F48C1BA8872000B44D45 /* MTAlertViewWrapper */,
 				759976D21BA5EB9E002CC31F /* MTDataLayer */,
 				754BF8201B9C4ADB00A060F4 /* MTURLRequestBuilder */,
 				754BF8141B9C46F900A060F4 /* MTNetworkWrapper */,
@@ -1037,6 +1054,7 @@
 				75E090E01B98B027008649E2 /* MTRootOperation.m in Sources */,
 				75E090591B9899F3008649E2 /* main.m in Sources */,
 				754BF8301B9C5CB700A060F4 /* MTMappedCity.m in Sources */,
+				75B3F4921BA8872000B44D45 /* MTAlertViewWrapper.m in Sources */,
 				75E091611B98B6CF008649E2 /* MTWebServiceParser.m in Sources */,
 				75E0914B1B98B5E2008649E2 /* MTMergeItemsOperation.m in Sources */,
 				75E0908D1B98AF99008649E2 /* MTCityListSearchPresenter.m in Sources */,

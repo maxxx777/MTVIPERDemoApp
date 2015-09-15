@@ -22,6 +22,8 @@
 		<string>https://github.com/maxxx777/UIColor-colorWithHex</string>
 		<key>7B3173A9A8711E26B2B7E8EB32A82862FE9BF726</key>
 		<string>https://bitbucket.org/alexthec0d3r/scheduleapp-iphone-cloned.git</string>
+		<key>9C3DF37F3FBBF30BD3A315212397547FBF63F459</key>
+		<string>https://github.com/maxxx777/MTAlertViewWrapper</string>
 		<key>A83CD2348ECEC42656B65FD5854EFB07004D394A</key>
 		<string>https://github.com/maxxx777/NSString-MTFormatting</string>
 		<key>DE9F33B77530C6FB52013FB58C7C7CEA46497AE6</key>
@@ -45,6 +47,8 @@
 		<string>../..VIPERDemoApp/Utilities/External/UIColor-colorWithHex</string>
 		<key>7B3173A9A8711E26B2B7E8EB32A82862FE9BF726</key>
 		<string>../../..</string>
+		<key>9C3DF37F3FBBF30BD3A315212397547FBF63F459</key>
+		<string>../../VIPERDemoApp/Utilities/External/MTAlertViewWrapper/</string>
 		<key>A83CD2348ECEC42656B65FD5854EFB07004D394A</key>
 		<string>../../VIPERDemoApp/Utilities/External/NSString-MTFormatting/</string>
 		<key>DE9F33B77530C6FB52013FB58C7C7CEA46497AE6</key>
@@ -67,6 +71,14 @@
 			<string>7B3173A9A8711E26B2B7E8EB32A82862FE9BF726</string>
 			<key>IDESourceControlWCCName</key>
 			<string></string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>9C3DF37F3FBBF30BD3A315212397547FBF63F459</string>
+			<key>IDESourceControlWCCName</key>
+			<string>MTAlertViewWrapper</string>
 		</dict>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>

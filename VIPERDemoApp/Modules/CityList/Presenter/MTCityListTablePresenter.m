@@ -10,11 +10,15 @@
 #import "MTItemListTableViewInterface.h"
 #import "MTCityListWireframe.h"
 #import "MTCityListCell.h"
+#import "MTAlertViewWrapper.h"
 
 static NSString *MTOffScreenCellIdentifier = @"OffScreenTableViewCell";
 static NSString *MTTableViewCellIdentifier = @"TableViewCellIdentifier";
 
 @interface MTCityListTablePresenter ()
+{
+    MTAlertViewWrapper *alertViewWrapper;
+}
 
 @property (nonatomic, strong) id<MTItemListRequesterInputInterface>itemListRequester;
 @property (nonatomic, strong) id<MTItemListFetcherInputInterface>itemListFetcher;
@@ -36,6 +40,8 @@ static NSString *MTTableViewCellIdentifier = @"TableViewCellIdentifier";
         _itemListRequester = itemListRequester;
         _itemListFetcher = itemListFetcher;
         _wireframe = wireframe;
+        
+        alertViewWrapper = [[MTAlertViewWrapper alloc] init];
         
         _isFirstAppearance = YES;
         
@@ -150,16 +156,15 @@ static NSString *MTTableViewCellIdentifier = @"TableViewCellIdentifier";
         [self updateFooterLabel];
         
     } else {
-//        [alertViewWrapper showRepeatRequestAlertWithText:NSLocalizedString(@"Sorry, can't receive data from server", nil)
-//                                       clickedCompletion:^(NSInteger buttonIndex, NSString *text){
-//                                           if (buttonIndex == 1) {
-//                                               [self.itemListRequester refreshItems];
-//                                           } else {
-//                                               [self.userInterface stopPullToRefreshAnimating];
-//                                               [self.cityDetector findMyCityInCityList];
-//                                               [self updateFooterLabel];
-//                                           }
-//                                       } didDismissCompletion:nil];
+        [alertViewWrapper showRepeatRequestAlertWithText:NSLocalizedString(@"Sorry, can't receive cities from server", nil)
+                                       clickedCompletion:^(NSInteger buttonIndex, NSString *text){
+                                           if (buttonIndex == 1) {
+                                               [self.itemListRequester refreshItems];
+                                           } else {
+                                               [self.userInterface stopPullToRefreshAnimating];
+                                               [self updateFooterLabel];
+                                           }
+                                       } didDismissCompletion:nil];
     }
     [self.userInterface stopPullToRefreshAnimating];
 }

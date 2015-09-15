@@ -13,3 +13,6 @@
 [submodule "VIPERDemoApp/Utilities/External/MTDataLayer"]
 	path = VIPERDemoApp/Utilities/External/MTDataLayer
 	url = https://github.com/maxxx777/MTDataLayer
+[submodule "VIPERDemoApp/Utilities/External/MTAlertViewWrapper"]
+	path = VIPERDemoApp/Utilities/External/MTAlertViewWrapper
+	url = https://github.com/maxxx777/MTAlertViewWrapper
