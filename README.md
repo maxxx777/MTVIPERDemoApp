@@ -21,21 +21,21 @@ Vertical architecture of a stack is presented on the picture:
 
 ![ScreenShot](https://cloud.githubusercontent.com/assets/2142832/9882759/23f43bf8-5bf8-11e5-9723-58b91838c2ad.png)
 
-**View** drawing can be done either programmacically or in storyboards/XIBs.<br />
-**ViewController** does only common UIKit things, so it can be reused for a some of modules.<br />
+**View** drawing can be done either programmatically or in storyboards/XIBs.<br />
+**ViewController** does only common UIKit things, so it can be reused for several modules.<br />
 **Presenter** does all module-specific things (stings, flags, event handling).<br />
-In this demo app I used `UITableViewController` inside `UIViewController` with distint presenters for both of them, so I separated `UITableView` logic from `UINavigationBar` and `UIToolBar` logic.<br />
-**Presenter** connected with one or a some of **Interactors**. **Interactor** is a unit of business-logic. For example, Data Request, Data Fetch, Email/Passowrd Sign In, Facebook Sign In, Location Detect are units of business-logic.<br />
+In this demo app I used `UITableViewController` inside `UIViewController` with distinct presenters for both of them, so I separated `UITableView` logic from `UINavigationBar` and `UIToolBar` logic.<br />
+**Presenter** connected with one or several **Interactors**. **Interactor** is a unit of business-logic. For example, Data Request, Data Fetch, Email/Password Sign In, Facebook Sign In, Location Detect are units of business-logic.<br />
 **Interactors** connected with **presenters** asynchronously and with **DataManager**/**NetworkWrapper** via blocks.<br />
 **DataManager** does operations with data, for example select data source (server/local database), merge and cache data.
 
 Conclusion
 ====================
 
-I would apply this approach only for large long-life projects, especially if this has well-defined modules and a some of versions (like Full and Lite).
+I would apply this approach only for large long-life projects, especially if this has well-defined modules and several versions (like Full and Lite).
 
 **Pros:**
-- separation into modules and layers casts light upon responsibility of each piece of code and enables to find and fix bugs more quickly, to test each piece of code and interaction between them, to use and replace libs and frameworks easely, to avoid Massive View Controller.
+- separation into modules and layers casts light upon responsibility of each piece of code and enables to find and fix bugs more quickly, to test each piece of code and interaction between them, to use and replace libs and frameworks easy, to avoid Massive View Controller.
 
 **Cons:**
 - so much time to implement each module, layer, connection. Refactoring of existing project can take to several months.
