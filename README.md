@@ -53,3 +53,7 @@ Further Reading:
 - https://www.objc.io/issues/13-architecture/viper/
 - https://medium.com/brigade-engineering/brigades-experience-using-an-mvc-alternative-36ef1601a41f
 - https://speakerdeck.com/sergigracia/clean-architecture-viper
+ 
+Usage
+====================
+Clone the pepository with all submodules (see submodules in `Utilities/External`)
