@@ -10,9 +10,9 @@
 [submodule "VIPERDemoApp/Utilities/External/MTURLRequestBuilder"]
 	path = VIPERDemoApp/Utilities/External/MTURLRequestBuilder
 	url = https://github.com/maxxx777/MTURLRequestBuilder
-[submodule "VIPERDemoApp/Utilities/External/MTAlertViewWrapper"]
-	path = VIPERDemoApp/Utilities/External/MTAlertViewWrapper
-	url = https://github.com/maxxx777/MTAlertViewWrapper
 [submodule "VIPERDemoApp/Utilities/External/MTDataLayer"]
 	path = VIPERDemoApp/Utilities/External/MTDataLayer
 	url = https://github.com/maxxx777/MTDataLayer
+[submodule "VIPERDemoApp/Utilities/External/MTAlertWrapper"]
+	path = VIPERDemoApp/Utilities/External/MTAlertWrapper
+	url = https://github.com/maxxx777/MTAlertWrapper
