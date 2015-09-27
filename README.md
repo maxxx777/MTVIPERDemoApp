@@ -5,7 +5,7 @@ This demo app presents an architectural approach which was applied for one real 
 
 TL;DR
 ====================
-There was a task to create app with well-defined parts and connections between them. Those parts either has similar business logic or reuse the same logic. There is not only one app, but some apps, parts of which is repeated by 90 percent. Furthermore, there is a task to separate off View Layer, Business Logic and Data/Network Layer in order to make changes and fix bugs in a piece of code without the influence of other pieces.
+There was a task to create app with well-defined parts and connections between them. Those parts either has similar business logic or reuse the same logic. There is not only one app, but some apps, parts of which are repeated by 90 percent. Furthermore, there is a task to separate off View Layer, Business Logic and Data/Network Layer in order to make changes and fix bugs in a piece of code without the influence of other pieces.
 Looking for architectural approach there is chosen [VIPER](https://www.objc.io/issues/13-architecture/viper/). Among [many ideas](http://khanlou.com/2014/03/model-view-whatever/) this approach suits for that app architecture better than any other.
 
 I can not share production code, so I create this demo app. This demo app contains only two modules, because it is just demo.
@@ -53,3 +53,7 @@ Further Reading:
 - https://www.objc.io/issues/13-architecture/viper/
 - https://medium.com/brigade-engineering/brigades-experience-using-an-mvc-alternative-36ef1601a41f
 - https://speakerdeck.com/sergigracia/clean-architecture-viper
+ 
+Usage
+====================
+Clone the pepository with all submodules (see submodules in `Utilities/External`)
