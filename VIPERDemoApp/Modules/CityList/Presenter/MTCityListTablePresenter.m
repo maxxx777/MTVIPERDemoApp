@@ -10,14 +10,14 @@
 #import "MTItemListTableViewInterface.h"
 #import "MTCityListWireframe.h"
 #import "MTCityListCell.h"
-#import "MTAlertViewWrapper.h"
+#import "MTAlertWrapper.h"
 
 static NSString *MTOffScreenCellIdentifier = @"OffScreenTableViewCell";
 static NSString *MTTableViewCellIdentifier = @"TableViewCellIdentifier";
 
 @interface MTCityListTablePresenter ()
 {
-    MTAlertViewWrapper *alertViewWrapper;
+    MTAlertWrapper *alertWrapper;
 }
 
 @property (nonatomic, strong) id<MTItemListRequesterInputInterface>itemListRequester;
@@ -41,7 +41,7 @@ static NSString *MTTableViewCellIdentifier = @"TableViewCellIdentifier";
         _itemListFetcher = itemListFetcher;
         _wireframe = wireframe;
         
-        alertViewWrapper = [[MTAlertViewWrapper alloc] init];
+        alertWrapper = [[MTAlertWrapper alloc] init];
         
         _isFirstAppearance = YES;
         
@@ -156,8 +156,8 @@ static NSString *MTTableViewCellIdentifier = @"TableViewCellIdentifier";
         [self updateFooterLabel];
         
     } else {
-        [alertViewWrapper showRepeatRequestAlertWithText:NSLocalizedString(@"Sorry, can't receive cities from server", nil)
-                                       clickedCompletion:^(NSInteger buttonIndex, NSString *text){
+        [alertWrapper showRepeatRequestAlertInViewController:self.userInterface withTitle:NSLocalizedString(@"Error", nil) message:NSLocalizedString(@"Sorry, can't receive cities from server", nil)
+                                       clickedCompletion:^(NSInteger buttonIndex, NSString *actionTitle, NSString *inputText){
                                            if (buttonIndex == 1) {
                                                [self.itemListRequester refreshItems];
                                            } else {
